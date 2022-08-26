@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eff4fd;
+}
+
+.contenido{
+    position: relative;
+    width: 100%;
+    height: 100%;    
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-bar li a:hover{
+    color: rgb(5, 171, 49)
+}
+
+.main-content{
+    margin-left: 8%;
+    margin-top: 5%; 
+    margin-bottom: 25%;
+   
+}
+
+.main-content h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 100px;
+}
+
+span{
+    color: orange;
+}
+
+.main-content p{
+    color: #555;
+    line-height: 22px;
+    margin-top: -40px;
+    
+    
+}
+
+footer {
+    color: #212121;
+    border-top: 1px solid #212121;
+    margin-top: 200px;
+    padding: 16px 0 0 10px;
+    background-color: rgb(6, 77, 6);
+    
+}
+
+footer p {
+    color: rgb(189, 240, 187);
+    background-color: rgb(6, 77, 6);
+    
+}
+
+.proyectos{
+    width: 53%;
+    height: 40%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    /*border: 1px solid #000;*/
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+    
+}
+
+#proyecto-1{
+    align-self: flex-start;
+}
+
+#proyecto-3{
+    align-self: flex-end;
+}
+
+.proyectos img{
+    border: 1px solid #000;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.perfil{
+    margin-top: 5%;
+    margin-left: 8%;
+    display: flex;
+}
+
+.foto img{
+    margin-bottom: -30px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.info{
+    width: 50%;
+    height: 40%;
+    position: absolute;   
+    right: 80px;
+    padding-left: 15px;  
+    padding-top: 10px;;  
+    
+}
+
+.info ul{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.tecnologias {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.lenguajes {
+    flex-wrap: wrap;
+}
+.tecnologias,
+.lenguajes {
+    display: flex;
+    gap: 25px;
+    
+}
+.card{
+    width: 10vw;
+    height: 7vw;
+ 
+    border-color: antiquewhite;
+}
+.eclipse {
+    display: flex;
+    height: 70px;
+}
+
+#eclipse {
+    align-self: flex-end;
+}
+
+i{
+    font-size: 70px;
+}
+
+i span{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+
+    .devices{
+        
+        
+        text-align: center;
+    }
+
+    .main-content {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+
+    .proyectos{
+        
+        left: 25%;
+        margin-top: 140px;
+        position: relative;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px
+        
+    }
+    .info {
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 0%;
+        height: 0%;
+        right: 0px;
+        position:relative;
+    }
+
+    .perfil{
+        padding-top: 5%;
+        padding-left: 15%;
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;        
+   
+    }
+}

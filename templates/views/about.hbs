@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+</head>
+<body>
+
+    <div class="contenido">
+        <nav>
+            <img src="img/aguacate.png" class="logo" alt="Aguacata" width="80">
+            <div>
+                {{>header}} 
+            </div>
+        </nav>
+    </div>
+
+    <div class="perfil">
+        <div class="foto"><img src="img/imagenPerfil.jpg" width="250"></div>
+
+        <div class="info">
+            <h1>Tecnologías y <span>Lenguajes:</span></h1>
+            <div class="contenedor">
+                <div class="tecnologias">
+                    <div class="net card">
+                        
+                        <i class="devicon-dotnetcore-plain colored"><span id="net"></span></i></div>
+                       
+                    <div class="eclipse card">
+                        <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/96/eclipse-icon.png" alt="eclipse" width="70"><span id="eclipse">Eclipse</span>
+                    </div>
+                </div>
+                <div class="lenguajes">
+                    <div class="html card">  
+                                             
+                        <i class="devicon-html5-plain-wordmark colored"><span id="html"></span></i>          
+                    </div>
+                    <div class="css card">
+                        
+                        <i class="devicon-css3-plain-wordmark colored"><span id="css"></span></i>
+                    </div>
+                    <div class="js card">
+                        
+                        <i class="devicon-javascript-plain colored"><span id="js"></span></i>
+                    </div>
+                    <div class="c card">
+                        <i class="devicon-c-plain colored"><span id="c"></span></i>
+                    </div>
+                    <div class="cpp card">
+                        <i class="devicon-cplusplus-plain colored"><span id="cpp"></span></i>
+                    </div>
+                    <div class="csharp card">
+                        <i class="devicon-csharp-plain colored"><span id="csharp"></span></i>
+                    </div>
+                    <div class="java card">
+                        <i class="devicon-java-plain-wordmark colored"><span id="java"></span></i>
+                    </div>
+                    <div class="git card">
+                        <a href="https://github.com/KoroDomo"><i class="devicon-github-original-wordmark colored"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--
+            <ul>
+                <li>VS Code</li>
+                <li>Eclipse</li>
+                <li>Html, Css</li>
+                <li>Js</li>
+                <li>C, C++</li>
+                <li>C#, Java</li>
+            </ul>
+            -->
+        </div>
+        
+    </div>   
+
+
+    
+
+    {{>footer}}
+     <script src="js/app.js"></script>
+     <script src="js/api.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor-principal" id="contenedor-principal">
+
+        <div class="contenedor-form">           
+            <form class="formulario" id="formulario">
+                <label for="nombre"></label>
+                <input type="text" placeholder="Ingrese el Pokemon" name="nombre" id="nombre" onblur="buscarPokemon()">
+                
+                <!--
+                    <input type="submit" value="Buscar" onClick="buscarPokemon" id="buscar">
+                -->            
+            </form>                    
+        </div>
+        <div class="contenedor-imagen">
+            <div id="imagen"></div>
+        </div>
+        <div class="contenedor-detalles">
+            <div class="detalle" id="pkmName"></div>
+            <div class="detalle" id="height">Height: </div>
+            <div class="detalle" id="weight">Weight: </div>
+            <div class="detalle" id="stats">Stats</div>
+            <div class="detalle" id="health">HP: </div>
+            <div class="detalle" id="attack">Attack: </div>
+            <div class="detalle" id="defense">Defense: </div>
+            <div class="detalle" id="sp_attack">Sp. Attack: </div>
+            <div class="detalle" id="sp_defense">Sp. Defense: </div>
+            <div class="detalle" id="speed">Speed: </div>
+            <button class="accordion">Moves</button>
+            <div class="detalle panel" id="moves">
+                <ul id="move"></ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="main.js"></script>  
+</body>
+</html>

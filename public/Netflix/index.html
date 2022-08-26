@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">PelisDiqueGratis</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Programas</a>
+                <a href="#">Peliculas</a>
+                <a href="#">Más Recientes</a>
+                <a href="#">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            
+            <div class="contenedor">
+                <h3 class="titulo">Blade Runner 2049</h3>
+                <p class="descripcion">
+                    El agente K (Ryan Gosling), un 'blade runner' caza-Replicantes del Departamento de Policía de Los Ángeles, descubre un secreto que ha estado enterrado durante mucho tiempo y que tiene el potencial de llevar a la sociedad al caos.
+                </p>
+                <button role="button" class="boton"><i class="fa-solid fa-play"></i><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Reproducir</a></button>
+                <button role="button" class="boton"><i class="fa-solid fa-circle-info"></i>Más Información</button>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Películas Recomendadas</h3>
+                <div class="indicadores"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fa-solid fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">                        
+                    
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/1.jpg" alt="imagen de sin city"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/2.jpg" alt="imagen de watchmen"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/3.jpg" alt="imagen de ghost in the shell"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/4.jpg" alt="imagen de blade runner"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/5.jpg" alt="imagen de blade runner 2049"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/6.jpg" alt="imagen de akira"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/7.jpg" alt="imagen de quinto elemento"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/8.jpg" alt="imagen de halo"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/9.jpg" alt="imagen de stranger things"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/10.jpg" alt="imagen de walking dead "></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/11.jpg" alt="imagen de batman"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/12.jpg" alt="imagen de spiderman"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/13.jpg" alt="imagen de evangelion"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/14.jpg" alt="imagen de interestelar"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/15.jpg" alt="imagen de inception"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/16.jpg" alt="imagen de perfect blue"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/17.jpg" alt="imagen de the matrix"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/18.jpg" alt="imagen de kill bill"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/19.jpg" alt="imagen de donnie darko"></a></div>
+                        <div class="pelicula"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/20.jpg" alt="imagen de whiplash"></a></div>
+                    
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fa-solid fa-angle-right"></i></button>
+
+            </div>
+        </div>
+        <div class="pokemones"></div>
+    </main>
+    <script src="https://kit.fontawesome.com/e07e9905f4.js" crossorigin="anonymous"></script>
+    <!--<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>-->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10% auto;
+    background-color: #fff;
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #605f5e;
+    border: 2px solid #bac8ec;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;   
+    display: flex;
+    align-items:center;
+}
+
+.cuadro img{
+    width: 50px;
+    background-color: aqua;  
+}
+
+#mensaje-ganador{
+    
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 37%;
+    margin-bottom: -80px;
+}
+
+/* ----------------------- Codigo Rechazado -------------------------------- */
+/*
+#equis{
+    visibility: hidden;
+}
+#letraO{
+    visibility: hidden;
+}
+
+#equis2{
+    visibility: hidden;
+}
+#letraO2{
+    visibility: hidden;
+}
+
+#equis3{
+    visibility: hidden;
+}
+#letraO3{
+    visibility: hidden;
+}
+
+#equis4{
+    visibility: hidden;
+}
+#letraO4{
+    visibility: hidden;
+}
+
+#equis5{
+    visibility: hidden;
+}
+#letraO5{
+    visibility: hidden;
+}
+
+#equis6{
+    visibility: hidden;
+}
+#letraO6{
+    visibility: hidden;
+}
+
+#equis7{
+    visibility: hidden;
+}
+#letraO7{
+    visibility: hidden;
+}
+
+#equis8{
+    visibility: hidden;
+}
+#letraO8{
+    visibility: hidden;
+}
+
+#equis9{
+    visibility: hidden;
+}
+#letraO9{
+    visibility: hidden;
+}*/

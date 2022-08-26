@@ -1,0 +1,144 @@
+body{
+    background-image: url(Pokeball6.png);
+    background-repeat: repeat;
+    
+}
+
+input[type=text] {
+    padding: 5px;
+    border: 0;
+    box-shadow:0 0 15px 2px rgba(0,0,0,0.2);
+    border-radius:10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#imagen{
+    z-index: 1;
+}
+
+.contenedor-principal{
+    width: 400px;
+    height: 550px;
+    border: 1px solid #bac8ec;
+    
+    /* centra el contenedor principal a mitad de pantalla */
+    margin: 1em auto;
+    
+
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#contenedor-principal {
+    background-color: aquamarine;
+}
+
+.contenedor-form{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+
+}
+
+.contenedor-imagen{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+
+}
+
+.contenedor-detalles{
+    margin-top: -75px;
+    width: 400px;
+    height: 100%;
+    border: 2px solid #bac8ec;
+    background-color: white;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+   
+}
+
+.detalle {
+    height: 40px;
+}
+
+#pkmName,
+#stats,
+#moves {
+    color: #444;
+    width: 390px;
+    text-align: center;
+}
+
+#height, 
+#weight,
+#health,
+#attack,
+#defense,
+#sp_attack,
+#sp_defense,
+#speed {
+    width: 190px;
+    color: #444;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    z-index: 1;
+    border-radius: 20%;
+    font-size: 15px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    z-index: 1;   
+    overflow-y: scroll;   
+}
+
+#pkmName {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#stats {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+#weight,
+#attack,
+#sp_attack,
+#speed,
+#height,
+#health,
+#defense,
+#sp_defense {
+    text-align: center;
+}
+
